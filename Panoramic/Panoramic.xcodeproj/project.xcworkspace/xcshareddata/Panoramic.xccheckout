@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F66642B7-4BB5-41EE-87BC-740E88AF8D2B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Panoramic</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C8EB9E62E11C410B9993230C4914B21E925D2459</key>
+		<string>https://github.com/iSame7/Panoramic.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Panoramic/Panoramic.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C8EB9E62E11C410B9993230C4914B21E925D2459</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/iSame7/Panoramic.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C8EB9E62E11C410B9993230C4914B21E925D2459</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C8EB9E62E11C410B9993230C4914B21E925D2459</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Panoramic</string>
+		</dict>
+	</array>
+</dict>
+</plist>
