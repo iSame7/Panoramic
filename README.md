@@ -4,7 +4,8 @@ Panoramic
 **Swift implementation of the photo tilt gesture/UX found in Facebook's Paper app.**
 
 <img src="screenshot.PNG" alt="Screenshot" width="320px"/>
-![alt tag](http://s3.jt.io/tilt.gif)
+<img src="screenshot-1.png" alt="Screenshot" width="320px"/>
+
 
 Requirements
 ----------
