@@ -9,7 +9,7 @@ Panoramic
 
 Requirements
 ----------
-* iOS 6.0 or higher
+* iOS 8.0 or higher
 * ARC
 * Core Motion
 
