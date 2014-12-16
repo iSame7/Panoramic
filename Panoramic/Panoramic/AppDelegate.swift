@@ -15,7 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+     var panoramaVC : PanoramaViewController? = PanoramaViewController()
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        if let window = window {
+            window.backgroundColor = UIColor.orangeColor()
+            window.makeKeyAndVisible()
+            window.rootViewController = panoramaVC
+        }
         return true
     }
 

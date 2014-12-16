@@ -13,6 +13,9 @@
 		29C36C561A409688006A83A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C36C551A409688006A83A2 /* Images.xcassets */; };
 		29C36C591A409688006A83A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29C36C571A409688006A83A2 /* LaunchScreen.xib */; };
 		29C36C651A409688006A83A2 /* PanoramicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36C641A409688006A83A2 /* PanoramicTests.swift */; };
+		29C36C701A4096D0006A83A2 /* PanoramaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36C6E1A4096D0006A83A2 /* PanoramaView.swift */; };
+		29C36C711A4096D0006A83A2 /* PanoramaIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36C6F1A4096D0006A83A2 /* PanoramaIndicator.swift */; };
+		29C36C741A409712006A83A2 /* PanoramaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36C731A409712006A83A2 /* PanoramaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		29C36C5E1A409688006A83A2 /* PanoramicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanoramicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C36C631A409688006A83A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29C36C641A409688006A83A2 /* PanoramicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanoramicTests.swift; sourceTree = "<group>"; };
+		29C36C6E1A4096D0006A83A2 /* PanoramaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PanoramaView.swift; path = Panoramic/PanoramaView.swift; sourceTree = "<group>"; };
+		29C36C6F1A4096D0006A83A2 /* PanoramaIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PanoramaIndicator.swift; path = Panoramic/PanoramaIndicator.swift; sourceTree = "<group>"; };
+		29C36C731A409712006A83A2 /* PanoramaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanoramaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 		29C36C401A409688006A83A2 = {
 			isa = PBXGroup;
 			children = (
+				29C36C721A4096D4006A83A2 /* Panoramic View */,
 				29C36C4B1A409688006A83A2 /* Panoramic */,
 				29C36C611A409688006A83A2 /* PanoramicTests */,
 				29C36C4A1A409688006A83A2 /* Products */,
@@ -80,6 +87,7 @@
 				29C36C4E1A409688006A83A2 /* AppDelegate.swift */,
 				29C36C501A409688006A83A2 /* ViewController.swift */,
 				29C36C521A409688006A83A2 /* Main.storyboard */,
+				29C36C731A409712006A83A2 /* PanoramaViewController.swift */,
 				29C36C551A409688006A83A2 /* Images.xcassets */,
 				29C36C571A409688006A83A2 /* LaunchScreen.xib */,
 				29C36C4C1A409688006A83A2 /* Supporting Files */,
@@ -110,6 +118,15 @@
 				29C36C631A409688006A83A2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29C36C721A4096D4006A83A2 /* Panoramic View */ = {
+			isa = PBXGroup;
+			children = (
+				29C36C6E1A4096D0006A83A2 /* PanoramaView.swift */,
+				29C36C6F1A4096D0006A83A2 /* PanoramaIndicator.swift */,
+			);
+			name = "Panoramic View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29C36C701A4096D0006A83A2 /* PanoramaView.swift in Sources */,
 				29C36C511A409688006A83A2 /* ViewController.swift in Sources */,
+				29C36C741A409712006A83A2 /* PanoramaViewController.swift in Sources */,
+				29C36C711A4096D0006A83A2 /* PanoramaIndicator.swift in Sources */,
 				29C36C4F1A409688006A83A2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +357,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Panoramic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Panoramic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
