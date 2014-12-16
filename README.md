@@ -4,7 +4,7 @@ Panoramic
 **Swift implementation of the photo tilt gesture/UX found in Facebook's Paper app.**
 
 <img src="screenshot.PNG" alt="Screenshot" width="320px"/>
-<img src="screenshot-1.png" alt="Screenshot" width="320px"/>
+<img src="screenshot-1.PNG" alt="Screenshot" width="320px"/>
 
 
 Requirements
@@ -15,7 +15,7 @@ Requirements
 
 ## License
 Panorama is released under the MIT license. See
-[LICENSE](https://github.com/iSame7/Panorama/blob/master/LICENSE).
+[LICENSE](https://github.com/iSame7/Panoramic/blob/master/LICENSE.md).
 
 Contact
 ----------
