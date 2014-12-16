@@ -5,7 +5,7 @@ Panoramic
 
 <img src="screenshot.PNG" alt="Screenshot" width="320px"/>
 <img src="screenshot-1.PNG" alt="Screenshot" width="320px"/>
-
+![alt tag](http://s3.jt.io/tilt.gif)
 
 Requirements
 ----------
