@@ -2,7 +2,7 @@
 //  PanoramicTests.swift
 //  PanoramicTests
 //
-//  Created by Sameh Mabrouk on 12/16/14.
+//  Created by Sameh Mabrouk on 12/15/14.
 //  Copyright (c) 2014 SMApps. All rights reserved.
 //
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0620"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "29C36C481A409688006A83A2"
+               BlueprintIdentifier = "29C36B461A3F5FC9006A83A2"
                BuildableName = "Panoramic.app"
                BlueprintName = "Panoramic"
                ReferencedContainer = "container:Panoramic.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "29C36C5D1A409688006A83A2"
+               BlueprintIdentifier = "29C36B5B1A3F5FC9006A83A2"
                BuildableName = "PanoramicTests.xctest"
                BlueprintName = "PanoramicTests"
                ReferencedContainer = "container:Panoramic.xcodeproj">
@@ -37,16 +37,16 @@
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "29C36C5D1A409688006A83A2"
+               BlueprintIdentifier = "29C36B5B1A3F5FC9006A83A2"
                BuildableName = "PanoramicTests.xctest"
                BlueprintName = "PanoramicTests"
                ReferencedContainer = "container:Panoramic.xcodeproj">
@@ -56,27 +56,30 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "29C36C481A409688006A83A2"
+            BlueprintIdentifier = "29C36B461A3F5FC9006A83A2"
             BuildableName = "Panoramic.app"
             BlueprintName = "Panoramic"
             ReferencedContainer = "container:Panoramic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "29C36C481A409688006A83A2"
+            BlueprintIdentifier = "29C36B461A3F5FC9006A83A2"
             BuildableName = "Panoramic.app"
             BlueprintName = "Panoramic"
             ReferencedContainer = "container:Panoramic.xcodeproj">
@@ -86,16 +89,16 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "29C36C481A409688006A83A2"
+            BlueprintIdentifier = "29C36B461A3F5FC9006A83A2"
             BuildableName = "Panoramic.app"
             BlueprintName = "Panoramic"
             ReferencedContainer = "container:Panoramic.xcodeproj">

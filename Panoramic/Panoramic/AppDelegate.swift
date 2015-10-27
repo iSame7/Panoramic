@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Panoramic
 //
-//  Created by Sameh Mabrouk on 12/16/14.
+//  Created by Sameh Mabrouk on 12/15/14.
 //  Copyright (c) 2014 SMApps. All rights reserved.
 //
 
@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-     var panoramaVC : PanoramaViewController? = PanoramaViewController()
+        let panoramaVC : PanoramaViewController? = PanoramaViewController()
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
         if let window = window {
             window.backgroundColor = UIColor.orangeColor()

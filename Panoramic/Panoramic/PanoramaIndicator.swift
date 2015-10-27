@@ -21,7 +21,7 @@ extension UIScrollView{
 
     //MARK: Getters/Setters
     func setViewForPanoramaIndicator(viewScrollIndicator:UIView){
-        objc_setAssociatedObject(self, &viewScrollIndicatorKey, viewScrollIndicator, UInt(OBJC_ASSOCIATION_RETAIN_NONATOMIC))
+        objc_setAssociatedObject(self, &viewScrollIndicatorKey, viewScrollIndicator, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
     }
     
     func getViewForPanoramaIndicator() -> UIView?{
@@ -30,7 +30,8 @@ extension UIScrollView{
     }
     func setBackgroundViewForPanoramaIndicator(backgroundViewScrollIndicator:UIView){
     
-        objc_setAssociatedObject(self, &backgroundViewScrollIndicatorKey, backgroundViewScrollIndicator, UInt(OBJC_ASSOCIATION_RETAIN_NONATOMIC))
+        objc_setAssociatedObject(self, &backgroundViewScrollIndicatorKey, backgroundViewScrollIndicator, .OBJC_ASSOCIATION_RETAIN)
+        objc_setAssociatedObject(dismissed, &key, nil, .OBJC_ASSOCIATION_RETAIN)
 
     }
     func getBackgroundViewForPanoramaIndicator()-> UIView?{
@@ -85,7 +86,7 @@ extension UIScrollView{
     func refreshBackgroundPanoramaIndicator(){
     
         let backgroundViewScrollIndicator:UIView = self.getBackgroundViewForPanoramaIndicator()!
-        var x:CGFloat = self.contentOffset.x + ScrollIndicatorLeftRightThreshold
+        let x:CGFloat = self.contentOffset.x + ScrollIndicatorLeftRightThreshold
         let rect:CGRect = CGRect(x: x, y: backgroundViewScrollIndicator.frame.origin.y, width: backgroundViewScrollIndicator.frame.width, height: backgroundViewScrollIndicator.frame.height)
         backgroundViewScrollIndicator.frame = rect
     }
@@ -94,14 +95,14 @@ extension UIScrollView{
     
         let viewScrollIndicator:UIView = self.getViewForPanoramaIndicator()!
         let percent:CGFloat = self.contentOffset.x / self.contentSize.width
-        var x:CGFloat =  self.contentOffset.x + ((self.bounds.size.width - ScrollIndicatorLeftRightThreshold) * percent) + ScrollIndicatorLeftRightThreshold
+        let x:CGFloat =  self.contentOffset.x + ((self.bounds.size.width - ScrollIndicatorLeftRightThreshold) * percent) + ScrollIndicatorLeftRightThreshold
         let rect:CGRect = CGRect(x: x, y: viewScrollIndicator.frame.origin.y, width: viewScrollIndicator.frame.width, height: viewScrollIndicator.frame.height)
         viewScrollIndicator.frame = rect
         
     }
     
     func disablePanoramaIndicator(){
-    println("disablePanoramaIndicator")
+    print("disablePanoramaIndicator")
         self.stopObservers()
         self.getBackgroundViewForPanoramaIndicator()?.removeFromSuperview()
         self.getViewForPanoramaIndicator()?.removeFromSuperview()
@@ -110,8 +111,8 @@ extension UIScrollView{
     //MARK: KVO
     func setupObservers(){
     
-        self.addObserver(self, forKeyPath:"contentSize", options: NSKeyValueObservingOptions.New | NSKeyValueObservingOptions.Old , context: nil)
-        self.addObserver(self, forKeyPath:"contentOffset", options: NSKeyValueObservingOptions.New | NSKeyValueObservingOptions.Old , context: nil)
+        self.addObserver(self, forKeyPath:"contentSize", options: [NSKeyValueObservingOptions.New, NSKeyValueObservingOptions.Old] , context: nil)
+        self.addObserver(self, forKeyPath:"contentOffset", options: [NSKeyValueObservingOptions.New, NSKeyValueObservingOptions.Old] , context: nil)
     }
     
     func stopObservers(){
@@ -121,7 +122,7 @@ extension UIScrollView{
         
     }
     
-    override public func observeValueForKeyPath(keyPath: String, ofObject object: AnyObject, change: [NSObject : AnyObject], context: UnsafeMutablePointer<Void>) {
+    override public func observeValueForKeyPath(keyPath: String?, ofObject object: AnyObject?, change: [String : AnyObject]?, context: UnsafeMutablePointer<Void>) {
         
         if self.contentSize.width > 0.0{
         

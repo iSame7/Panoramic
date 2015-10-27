@@ -1,0 +1,27 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D359FF3C54B1BAF14FF22A745D45A8C0CA649396" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9E50FD57-17B8-4739-907B-CD1BBEC451FB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D359FF3C54B1BAF14FF22A745D45A8C0CA649396" : "Panoramic\/Panoramic\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Panoramic",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Panoramic.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iSame7\/Panoramic.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D359FF3C54B1BAF14FF22A745D45A8C0CA649396"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iSame7\/Panoramic.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D359FF3C54B1BAF14FF22A745D45A8C0CA649396"
+    }
+  ]
+}

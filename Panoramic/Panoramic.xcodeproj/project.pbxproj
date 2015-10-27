@@ -7,52 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29C36C4F1A409688006A83A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36C4E1A409688006A83A2 /* AppDelegate.swift */; };
-		29C36C511A409688006A83A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36C501A409688006A83A2 /* ViewController.swift */; };
-		29C36C541A409688006A83A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C36C521A409688006A83A2 /* Main.storyboard */; };
-		29C36C561A409688006A83A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C36C551A409688006A83A2 /* Images.xcassets */; };
-		29C36C591A409688006A83A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29C36C571A409688006A83A2 /* LaunchScreen.xib */; };
-		29C36C651A409688006A83A2 /* PanoramicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36C641A409688006A83A2 /* PanoramicTests.swift */; };
-		29C36C701A4096D0006A83A2 /* PanoramaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36C6E1A4096D0006A83A2 /* PanoramaView.swift */; };
-		29C36C711A4096D0006A83A2 /* PanoramaIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36C6F1A4096D0006A83A2 /* PanoramaIndicator.swift */; };
-		29C36C741A409712006A83A2 /* PanoramaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36C731A409712006A83A2 /* PanoramaViewController.swift */; };
+		29C36B4D1A3F5FC9006A83A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36B4C1A3F5FC9006A83A2 /* AppDelegate.swift */; };
+		29C36B4F1A3F5FC9006A83A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36B4E1A3F5FC9006A83A2 /* ViewController.swift */; };
+		29C36B521A3F5FC9006A83A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C36B501A3F5FC9006A83A2 /* Main.storyboard */; };
+		29C36B541A3F5FC9006A83A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C36B531A3F5FC9006A83A2 /* Images.xcassets */; };
+		29C36B571A3F5FC9006A83A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29C36B551A3F5FC9006A83A2 /* LaunchScreen.xib */; };
+		29C36B631A3F5FC9006A83A2 /* PanoramicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36B621A3F5FC9006A83A2 /* PanoramicTests.swift */; };
+		29C36B6E1A3F5FF6006A83A2 /* PanoramaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36B6C1A3F5FF6006A83A2 /* PanoramaView.swift */; };
+		29C36B6F1A3F5FF6006A83A2 /* PanoramaIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36B6D1A3F5FF6006A83A2 /* PanoramaIndicator.swift */; };
+		29C36B721A3F6045006A83A2 /* PanoramaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C36B711A3F6045006A83A2 /* PanoramaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		29C36C5F1A409688006A83A2 /* PBXContainerItemProxy */ = {
+		29C36B5D1A3F5FC9006A83A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 29C36C411A409688006A83A2 /* Project object */;
+			containerPortal = 29C36B3F1A3F5FC9006A83A2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 29C36C481A409688006A83A2;
+			remoteGlobalIDString = 29C36B461A3F5FC9006A83A2;
 			remoteInfo = Panoramic;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		29C36C491A409688006A83A2 /* Panoramic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panoramic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		29C36C4D1A409688006A83A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29C36C4E1A409688006A83A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29C36C501A409688006A83A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		29C36C531A409688006A83A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		29C36C551A409688006A83A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		29C36C581A409688006A83A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		29C36C5E1A409688006A83A2 /* PanoramicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanoramicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		29C36C631A409688006A83A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29C36C641A409688006A83A2 /* PanoramicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanoramicTests.swift; sourceTree = "<group>"; };
-		29C36C6E1A4096D0006A83A2 /* PanoramaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PanoramaView.swift; path = Panoramic/PanoramaView.swift; sourceTree = "<group>"; };
-		29C36C6F1A4096D0006A83A2 /* PanoramaIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PanoramaIndicator.swift; path = Panoramic/PanoramaIndicator.swift; sourceTree = "<group>"; };
-		29C36C731A409712006A83A2 /* PanoramaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanoramaViewController.swift; sourceTree = "<group>"; };
+		29C36B471A3F5FC9006A83A2 /* Panoramic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panoramic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C36B4B1A3F5FC9006A83A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C36B4C1A3F5FC9006A83A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29C36B4E1A3F5FC9006A83A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29C36B511A3F5FC9006A83A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29C36B531A3F5FC9006A83A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29C36B561A3F5FC9006A83A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		29C36B5C1A3F5FC9006A83A2 /* PanoramicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanoramicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C36B611A3F5FC9006A83A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C36B621A3F5FC9006A83A2 /* PanoramicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanoramicTests.swift; sourceTree = "<group>"; };
+		29C36B6C1A3F5FF6006A83A2 /* PanoramaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PanoramaView.swift; path = Panoramic/PanoramaView.swift; sourceTree = "<group>"; };
+		29C36B6D1A3F5FF6006A83A2 /* PanoramaIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PanoramaIndicator.swift; path = Panoramic/PanoramaIndicator.swift; sourceTree = "<group>"; };
+		29C36B711A3F6045006A83A2 /* PanoramaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanoramaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		29C36C461A409688006A83A2 /* Frameworks */ = {
+		29C36B441A3F5FC9006A83A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29C36C5B1A409688006A83A2 /* Frameworks */ = {
+		29C36B591A3F5FC9006A83A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,69 +62,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29C36C401A409688006A83A2 = {
+		29C36B3E1A3F5FC9006A83A2 = {
 			isa = PBXGroup;
 			children = (
-				29C36C721A4096D4006A83A2 /* Panoramic View */,
-				29C36C4B1A409688006A83A2 /* Panoramic */,
-				29C36C611A409688006A83A2 /* PanoramicTests */,
-				29C36C4A1A409688006A83A2 /* Products */,
+				29C36B701A3F6001006A83A2 /* Panoramic View */,
+				29C36B491A3F5FC9006A83A2 /* Panoramic */,
+				29C36B5F1A3F5FC9006A83A2 /* PanoramicTests */,
+				29C36B481A3F5FC9006A83A2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		29C36C4A1A409688006A83A2 /* Products */ = {
+		29C36B481A3F5FC9006A83A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29C36C491A409688006A83A2 /* Panoramic.app */,
-				29C36C5E1A409688006A83A2 /* PanoramicTests.xctest */,
+				29C36B471A3F5FC9006A83A2 /* Panoramic.app */,
+				29C36B5C1A3F5FC9006A83A2 /* PanoramicTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29C36C4B1A409688006A83A2 /* Panoramic */ = {
+		29C36B491A3F5FC9006A83A2 /* Panoramic */ = {
 			isa = PBXGroup;
 			children = (
-				29C36C4E1A409688006A83A2 /* AppDelegate.swift */,
-				29C36C501A409688006A83A2 /* ViewController.swift */,
-				29C36C521A409688006A83A2 /* Main.storyboard */,
-				29C36C731A409712006A83A2 /* PanoramaViewController.swift */,
-				29C36C551A409688006A83A2 /* Images.xcassets */,
-				29C36C571A409688006A83A2 /* LaunchScreen.xib */,
-				29C36C4C1A409688006A83A2 /* Supporting Files */,
+				29C36B4C1A3F5FC9006A83A2 /* AppDelegate.swift */,
+				29C36B4E1A3F5FC9006A83A2 /* ViewController.swift */,
+				29C36B501A3F5FC9006A83A2 /* Main.storyboard */,
+				29C36B711A3F6045006A83A2 /* PanoramaViewController.swift */,
+				29C36B531A3F5FC9006A83A2 /* Images.xcassets */,
+				29C36B551A3F5FC9006A83A2 /* LaunchScreen.xib */,
+				29C36B4A1A3F5FC9006A83A2 /* Supporting Files */,
 			);
 			path = Panoramic;
 			sourceTree = "<group>";
 		};
-		29C36C4C1A409688006A83A2 /* Supporting Files */ = {
+		29C36B4A1A3F5FC9006A83A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				29C36C4D1A409688006A83A2 /* Info.plist */,
+				29C36B4B1A3F5FC9006A83A2 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		29C36C611A409688006A83A2 /* PanoramicTests */ = {
+		29C36B5F1A3F5FC9006A83A2 /* PanoramicTests */ = {
 			isa = PBXGroup;
 			children = (
-				29C36C641A409688006A83A2 /* PanoramicTests.swift */,
-				29C36C621A409688006A83A2 /* Supporting Files */,
+				29C36B621A3F5FC9006A83A2 /* PanoramicTests.swift */,
+				29C36B601A3F5FC9006A83A2 /* Supporting Files */,
 			);
 			path = PanoramicTests;
 			sourceTree = "<group>";
 		};
-		29C36C621A409688006A83A2 /* Supporting Files */ = {
+		29C36B601A3F5FC9006A83A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				29C36C631A409688006A83A2 /* Info.plist */,
+				29C36B611A3F5FC9006A83A2 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		29C36C721A4096D4006A83A2 /* Panoramic View */ = {
+		29C36B701A3F6001006A83A2 /* Panoramic View */ = {
 			isa = PBXGroup;
 			children = (
-				29C36C6E1A4096D0006A83A2 /* PanoramaView.swift */,
-				29C36C6F1A4096D0006A83A2 /* PanoramaIndicator.swift */,
+				29C36B6C1A3F5FF6006A83A2 /* PanoramaView.swift */,
+				29C36B6D1A3F5FF6006A83A2 /* PanoramaIndicator.swift */,
 			);
 			name = "Panoramic View";
 			sourceTree = "<group>";
@@ -132,13 +132,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		29C36C481A409688006A83A2 /* Panoramic */ = {
+		29C36B461A3F5FC9006A83A2 /* Panoramic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29C36C681A409688006A83A2 /* Build configuration list for PBXNativeTarget "Panoramic" */;
+			buildConfigurationList = 29C36B661A3F5FC9006A83A2 /* Build configuration list for PBXNativeTarget "Panoramic" */;
 			buildPhases = (
-				29C36C451A409688006A83A2 /* Sources */,
-				29C36C461A409688006A83A2 /* Frameworks */,
-				29C36C471A409688006A83A2 /* Resources */,
+				29C36B431A3F5FC9006A83A2 /* Sources */,
+				29C36B441A3F5FC9006A83A2 /* Frameworks */,
+				29C36B451A3F5FC9006A83A2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -146,46 +146,48 @@
 			);
 			name = Panoramic;
 			productName = Panoramic;
-			productReference = 29C36C491A409688006A83A2 /* Panoramic.app */;
+			productReference = 29C36B471A3F5FC9006A83A2 /* Panoramic.app */;
 			productType = "com.apple.product-type.application";
 		};
-		29C36C5D1A409688006A83A2 /* PanoramicTests */ = {
+		29C36B5B1A3F5FC9006A83A2 /* PanoramicTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29C36C6B1A409688006A83A2 /* Build configuration list for PBXNativeTarget "PanoramicTests" */;
+			buildConfigurationList = 29C36B691A3F5FC9006A83A2 /* Build configuration list for PBXNativeTarget "PanoramicTests" */;
 			buildPhases = (
-				29C36C5A1A409688006A83A2 /* Sources */,
-				29C36C5B1A409688006A83A2 /* Frameworks */,
-				29C36C5C1A409688006A83A2 /* Resources */,
+				29C36B581A3F5FC9006A83A2 /* Sources */,
+				29C36B591A3F5FC9006A83A2 /* Frameworks */,
+				29C36B5A1A3F5FC9006A83A2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				29C36C601A409688006A83A2 /* PBXTargetDependency */,
+				29C36B5E1A3F5FC9006A83A2 /* PBXTargetDependency */,
 			);
 			name = PanoramicTests;
 			productName = PanoramicTests;
-			productReference = 29C36C5E1A409688006A83A2 /* PanoramicTests.xctest */;
+			productReference = 29C36B5C1A3F5FC9006A83A2 /* PanoramicTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		29C36C411A409688006A83A2 /* Project object */ = {
+		29C36B3F1A3F5FC9006A83A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = SMApps;
 				TargetAttributes = {
-					29C36C481A409688006A83A2 = {
+					29C36B461A3F5FC9006A83A2 = {
 						CreatedOnToolsVersion = 6.2;
 					};
-					29C36C5D1A409688006A83A2 = {
+					29C36B5B1A3F5FC9006A83A2 = {
 						CreatedOnToolsVersion = 6.2;
-						TestTargetID = 29C36C481A409688006A83A2;
+						TestTargetID = 29C36B461A3F5FC9006A83A2;
 					};
 				};
 			};
-			buildConfigurationList = 29C36C441A409688006A83A2 /* Build configuration list for PBXProject "Panoramic" */;
+			buildConfigurationList = 29C36B421A3F5FC9006A83A2 /* Build configuration list for PBXProject "Panoramic" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -193,29 +195,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 29C36C401A409688006A83A2;
-			productRefGroup = 29C36C4A1A409688006A83A2 /* Products */;
+			mainGroup = 29C36B3E1A3F5FC9006A83A2;
+			productRefGroup = 29C36B481A3F5FC9006A83A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				29C36C481A409688006A83A2 /* Panoramic */,
-				29C36C5D1A409688006A83A2 /* PanoramicTests */,
+				29C36B461A3F5FC9006A83A2 /* Panoramic */,
+				29C36B5B1A3F5FC9006A83A2 /* PanoramicTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		29C36C471A409688006A83A2 /* Resources */ = {
+		29C36B451A3F5FC9006A83A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29C36C541A409688006A83A2 /* Main.storyboard in Resources */,
-				29C36C591A409688006A83A2 /* LaunchScreen.xib in Resources */,
-				29C36C561A409688006A83A2 /* Images.xcassets in Resources */,
+				29C36B521A3F5FC9006A83A2 /* Main.storyboard in Resources */,
+				29C36B571A3F5FC9006A83A2 /* LaunchScreen.xib in Resources */,
+				29C36B541A3F5FC9006A83A2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29C36C5C1A409688006A83A2 /* Resources */ = {
+		29C36B5A1A3F5FC9006A83A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -225,49 +227,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		29C36C451A409688006A83A2 /* Sources */ = {
+		29C36B431A3F5FC9006A83A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29C36C701A4096D0006A83A2 /* PanoramaView.swift in Sources */,
-				29C36C511A409688006A83A2 /* ViewController.swift in Sources */,
-				29C36C741A409712006A83A2 /* PanoramaViewController.swift in Sources */,
-				29C36C711A4096D0006A83A2 /* PanoramaIndicator.swift in Sources */,
-				29C36C4F1A409688006A83A2 /* AppDelegate.swift in Sources */,
+				29C36B6E1A3F5FF6006A83A2 /* PanoramaView.swift in Sources */,
+				29C36B4F1A3F5FC9006A83A2 /* ViewController.swift in Sources */,
+				29C36B721A3F6045006A83A2 /* PanoramaViewController.swift in Sources */,
+				29C36B6F1A3F5FF6006A83A2 /* PanoramaIndicator.swift in Sources */,
+				29C36B4D1A3F5FC9006A83A2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29C36C5A1A409688006A83A2 /* Sources */ = {
+		29C36B581A3F5FC9006A83A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29C36C651A409688006A83A2 /* PanoramicTests.swift in Sources */,
+				29C36B631A3F5FC9006A83A2 /* PanoramicTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		29C36C601A409688006A83A2 /* PBXTargetDependency */ = {
+		29C36B5E1A3F5FC9006A83A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 29C36C481A409688006A83A2 /* Panoramic */;
-			targetProxy = 29C36C5F1A409688006A83A2 /* PBXContainerItemProxy */;
+			target = 29C36B461A3F5FC9006A83A2 /* Panoramic */;
+			targetProxy = 29C36B5D1A3F5FC9006A83A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		29C36C521A409688006A83A2 /* Main.storyboard */ = {
+		29C36B501A3F5FC9006A83A2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29C36C531A409688006A83A2 /* Base */,
+				29C36B511A3F5FC9006A83A2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		29C36C571A409688006A83A2 /* LaunchScreen.xib */ = {
+		29C36B551A3F5FC9006A83A2 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29C36C581A409688006A83A2 /* Base */,
+				29C36B561A3F5FC9006A83A2 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -275,7 +277,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		29C36C661A409688006A83A2 /* Debug */ = {
+		29C36B641A3F5FC9006A83A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -295,6 +297,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -317,7 +320,7 @@
 			};
 			name = Debug;
 		};
-		29C36C671A409688006A83A2 /* Release */ = {
+		29C36B651A3F5FC9006A83A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -352,29 +355,31 @@
 			};
 			name = Release;
 		};
-		29C36C691A409688006A83A2 /* Debug */ = {
+		29C36B671A3F5FC9006A83A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Panoramic/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smapps.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		29C36C6A1A409688006A83A2 /* Release */ = {
+		29C36B681A3F5FC9006A83A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Panoramic/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smapps.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		29C36C6C1A409688006A83A2 /* Debug */ = {
+		29C36B6A1A3F5FC9006A83A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -388,12 +393,13 @@
 				);
 				INFOPLIST_FILE = PanoramicTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smapps.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Panoramic.app/Panoramic";
 			};
 			name = Debug;
 		};
-		29C36C6D1A409688006A83A2 /* Release */ = {
+		29C36B6B1A3F5FC9006A83A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -403,6 +409,7 @@
 				);
 				INFOPLIST_FILE = PanoramicTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smapps.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Panoramic.app/Panoramic";
 			};
@@ -411,32 +418,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29C36C441A409688006A83A2 /* Build configuration list for PBXProject "Panoramic" */ = {
+		29C36B421A3F5FC9006A83A2 /* Build configuration list for PBXProject "Panoramic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29C36C661A409688006A83A2 /* Debug */,
-				29C36C671A409688006A83A2 /* Release */,
+				29C36B641A3F5FC9006A83A2 /* Debug */,
+				29C36B651A3F5FC9006A83A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		29C36C681A409688006A83A2 /* Build configuration list for PBXNativeTarget "Panoramic" */ = {
+		29C36B661A3F5FC9006A83A2 /* Build configuration list for PBXNativeTarget "Panoramic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29C36C691A409688006A83A2 /* Debug */,
-				29C36C6A1A409688006A83A2 /* Release */,
+				29C36B671A3F5FC9006A83A2 /* Debug */,
+				29C36B681A3F5FC9006A83A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		29C36C6B1A409688006A83A2 /* Build configuration list for PBXNativeTarget "PanoramicTests" */ = {
+		29C36B691A3F5FC9006A83A2 /* Build configuration list for PBXNativeTarget "PanoramicTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				29C36C6C1A409688006A83A2 /* Debug */,
-				29C36C6D1A409688006A83A2 /* Release */,
+				29C36B6A1A3F5FC9006A83A2 /* Debug */,
+				29C36B6B1A3F5FC9006A83A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 29C36C411A409688006A83A2 /* Project object */;
+	rootObject = 29C36B3F1A3F5FC9006A83A2 /* Project object */;
 }
