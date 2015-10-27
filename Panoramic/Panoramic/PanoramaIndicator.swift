@@ -31,8 +31,6 @@ extension UIScrollView{
     func setBackgroundViewForPanoramaIndicator(backgroundViewScrollIndicator:UIView){
     
         objc_setAssociatedObject(self, &backgroundViewScrollIndicatorKey, backgroundViewScrollIndicator, .OBJC_ASSOCIATION_RETAIN)
-        objc_setAssociatedObject(dismissed, &key, nil, .OBJC_ASSOCIATION_RETAIN)
-
     }
     func getBackgroundViewForPanoramaIndicator()-> UIView?{
         return objc_getAssociatedObject(self, &backgroundViewScrollIndicatorKey) as? UIView;
